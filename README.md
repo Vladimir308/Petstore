@@ -62,7 +62,7 @@ ____
 ____
 <a id="jenkins"></a>
 
-## <img alt="Jenkins" height="25" src="media/logo/Jenkins.png" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Regres/)</a>
+## <img alt="Jenkins" height="25" src="media/logo/Jenkins.png" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Petstore/)</a>
 
 ____
 <p align="center">  
