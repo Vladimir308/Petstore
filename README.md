@@ -66,7 +66,7 @@ ____
 
 ____
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/Regres/"><img src="media/screenshots/Jenkins.png" alt="Jenkins" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/Petstore/"><img src="media/screenshots/Jenkins.png" alt="Jenkins" width="950"/></a>  
 </p>
 
 ### **Параметры сборки в Jenkins:**
@@ -93,7 +93,7 @@ clean ${TASK}
 ___
 <a id="allure"></a>
 
-## <img alt="Allure" height="25" src="media/logo/AllureReports.png" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/Regres/1/allure/)</a>
+## <img alt="Allure" height="25" src="media/logo/AllureReports.png" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/Petstore/3/allure/)</a>
 
 ___
 
@@ -118,7 +118,7 @@ ___
 ___
 <a id="allure-testops"></a>
 
-## <img alt="Allure" height="25" src="media/logo/AllureTestOps.svg" width="25"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/43614">Allure TestOps</a>
+## <img alt="Allure" height="25" src="media/logo/AllureTestOps.svg" width="25"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/43618/">Allure TestOps</a>
 
 ____
 
