@@ -202,5 +202,4 @@ public class UserTests extends TestBase {
             assertEquals("gchernov", response.getMessage());
         });
     }
-
 }

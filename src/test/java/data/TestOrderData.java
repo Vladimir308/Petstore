@@ -8,4 +8,3 @@ public class TestOrderData {
     public final String status = "placed_right";
     public final Boolean complete = true;
 }
-

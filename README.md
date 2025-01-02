@@ -3,6 +3,7 @@
 > This is a sample server Petstore server.
 
 ## **Содержание:**
+
 ____
 
 * <a href="#tools">Технологии и инструменты</a>
@@ -35,20 +36,22 @@ ____
 <a href="https://web.telegram.org/k/"><img width="7%" title="Telegram" src="media/logo/Telegram.png"></a>
 </p>
 
-
 - Язык для написания тестов : [Java](https://www.java.com/ru/)
 - Фреймворк для модульного тестирования : [Junit5](https://github.com/junit-team/junit5)
 - Система автоматической сборки : [Gradle](https://github.com/gradle)
 - Удаленный запуск с выбором параметров для тестов реализован при помощи :  [Jenkins](https://www.jenkins.io/)
 - Отчеты о пройденных тестах формируются при помощи : [Allure](https://github.com/allure-framework)
 - Так же отчеты о тестировании отправляются в мессенджер при помощи <code>Telegram</code> бота
-- Реализована интеграция  с [Allure TestOps](https://qameta.io/)
+- Реализована интеграция с [Allure TestOps](https://qameta.io/)
 - Реализация API тестов при помощи <code>RestAssured</code>
 
 ____
 <a id="cases"></a>
+
 ## <a name="Примеры автоматизированных тест-кейсов">**Примеры автоматизированных тест-кейсов:**</a>
+
 ____
+
 - ✓ *Получение данных зарегистрированного пользователя*
 - ✓ *Обновление данных пользователя*
 - ✓ *Успешная авторизация пользователя*
@@ -56,35 +59,42 @@ ____
 - ✓ *Успешное оформление заказа*
 - ✓ *Получение данных о заказе*
 
-
 ____
 <a id="jenkins"></a>
+
 ## <img alt="Jenkins" height="25" src="media/logo/Jenkins.png" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Regres/)</a>
+
 ____
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/Regres/"><img src="media/screenshots/Jenkins.png" alt="Jenkins" width="950"/></a>  
 </p>
-
 
 ### **Параметры сборки в Jenkins:**
 
 - *task (выбор группы тестов для запуска, по умолчанию все - test)*
 
 <a id="console"></a>
+
 ## Команды для запуска из терминала
+
 ___
 ***Локальный запуск:***
+
 ```bash  
 gradle clean test
 ```
 
 ***Удалённый запуск через Jenkins:***
+
 ```bash  
 clean ${TASK}
 ```
+
 ___
 <a id="allure"></a>
+
 ## <img alt="Allure" height="25" src="media/logo/AllureReports.png" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/Regres/1/allure/)</a>
+
 ___
 
 ### *Основная страница отчёта*
@@ -107,8 +117,11 @@ ___
 
 ___
 <a id="allure-testops"></a>
+
 ## <img alt="Allure" height="25" src="media/logo/AllureTestOps.svg" width="25"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/43614">Allure TestOps</a>
+
 ____
+
 ### *Allure TestOps Dashboard*
 
 <p align="center">  
@@ -123,9 +136,10 @@ ____
 
 ____
 <a id="telegram"></a>
+
 ## <img alt="Telegram" height="25" src="media/logo/Telegram.png" width="25"/></a> Уведомление в Telegram при помощи бота
+
 ____
 <p align="center">  
 <img title="Telegram" src="media/screenshots/Telegramm.png" width="550">  
 </p>
-
